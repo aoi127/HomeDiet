@@ -30,7 +30,8 @@
       },
       {
         "text": "购物车",
-        "pagePath": "pages/cart/cart"
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/icons/cart.png"
       },
       {
         "text": "我的",
