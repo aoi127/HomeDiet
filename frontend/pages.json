@@ -4,8 +4,10 @@
 		    "path" : "pages/mine/mine",
 		    "style" :                                                                                    
 		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": false
+		        "navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#bae7ff"
 		    }
 		},
 		{
@@ -59,8 +61,8 @@
 			},
 			{
 				"text": "购物车",
-				"pagePath": "pages/cart/cart"
-				// "iconPath":"static/icons/cart.svg"
+				"pagePath": "pages/cart/cart",
+				"iconPath":"static/icons/cart.png"
 			},
 			{
 				"text": "我的",
