@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/order/order",
     "pages/mine/mine",
     "pages/cart/cart",
-    "pages/index/index",
-    "pages/market/market"
+    "pages/market/market",
+    "pages/index/index"
   ],
   "subPackages": [],
   "window": {

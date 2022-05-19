@@ -136,7 +136,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -165,28 +165,35 @@ var _default =
     return {
       navs: [{
         icon: '/static/icons/antFill-bulb.svg',
-        title: '全部订单'
-        // path: '/pages/goods/goods'
-      },
+        title: '全部订单',
+        path: '/pages/order/order' },
+
       {
         icon: '/static/icons/fas fa-info-circle.svg',
-        title: '待付款'
-        // path: '/pages/contact/contact'
-      },
+        title: '待付款',
+        path: '/pages/order/order' },
+
       {
         icon: '/static/icons/mb-question-filled.svg',
-        title: '待提货'
-        // path: '/pages/pics/pics'
-      },
+        title: '待提货',
+        path: '/pages/order/order' },
+
       {
         icon: '/static/icons/antOutline-customer-service Copy.svg',
-        title: '已提货'
-        // path: '/pages/videos/videos'
-      }] };
+        title: '已提货',
+        path: '/pages/order/order' }] };
+
 
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    navItemClick: function navItemClick(url) {
+      // console.log(url)
+      uni.navigateTo({
+        url: url });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 /* 18 */

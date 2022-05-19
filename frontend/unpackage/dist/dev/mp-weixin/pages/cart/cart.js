@@ -178,41 +178,95 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
+//
+//
+//
 var _default =
 {
   data: function data() {
     return {
-      radio1: 0,
-      label1: [{
-        text: '全选',
-        value: 1 }],
-
+      checkedAll: false,
       sum: 0,
       items: [{
         img: "../../static/market/item1.png",
         title: "语农 散装土鸡蛋  360枚 40斤",
         time: "08月13日",
-        price: "28.8",
-        sold: "2700" },
+        price: 10,
+        cost: 10,
+        sold: 2700,
+        seleted: false },
 
       {
         img: "../../static/market/item2.png",
         title: "语农 散装土鸡蛋  360枚 40斤",
         time: "08月13日",
-        price: "28.8",
-        sold: "2700" },
+        price: 20,
+        cost: 20,
+        sold: 2700,
+        seleted: false },
 
       {
         img: "../../static/market/item3.png",
         title: "语农 散装土鸡蛋  360枚 40斤",
         time: "08月13日",
-        price: "28.8",
-        sold: "2700" }] };
+        price: 30,
+        cost: 30,
+        sold: 2700,
+        seleted: false },
+
+      {
+        img: "../../static/market/item3.png",
+        title: "语农 散装土鸡蛋  360枚 40斤",
+        time: "08月13日",
+        price: 28.8,
+        cost: 28.8,
+        sold: 2700,
+        seleted: false }] };
 
 
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    goodsNumChange: function goodsNumChange(e, index) {
+      var num = e;
+      // console.log(e, index)
+      if (this.items[index].seleted)
+      this.sum = this.sum - this.items[index].cost;
+      this.items[index].cost = this.items[index].price * num;
+      if (this.items[index].seleted)
+      this.sum = this.sum + this.items[index].cost;
+    },
+    select: function select(index) {
+      if (this.items[index].seleted) {// 取消勾选
+        this.sum = this.sum - this.items[index].cost;
+        this.items[index].seleted = false;
+      } else
+      {// 勾选
+        this.sum = this.sum + this.items[index].cost;
+        this.items[index].seleted = true;
+      }
+    },
+    checkAll: function checkAll(e) {
+      // console.log("进入checkAll函数")
+      if (this.checkedAll) {
+        this.$set(this, 'checkedAll', false);
+        this.sum = 0;
+        for (var i = 0; i < this.items.length; i++) {
+          this.$set(this.items[i], 'seleted', false);
+        }
+        // console.log("取消全选, checkedAll的值为", this.checkedAll);
+      } else
+      {
+        this.$set(this, 'checkedAll', true);
+        this.sum = 0;
+        for (var i = 0; i < this.items.length; i++) {
+          this.$set(this.items[i], 'seleted', true);
+          this.sum = this.sum + this.items[i].cost;
+        }
+        // console.log("全选, checkedAll的值为", this.checkedAll);
+      }
+    } } };exports.default = _default;
 
 /***/ }),
 

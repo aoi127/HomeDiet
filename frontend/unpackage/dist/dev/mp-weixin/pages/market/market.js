@@ -178,6 +178,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 //
 //
 //
+//
 var _default =
 {
   data: function data() {
@@ -187,6 +188,7 @@ var _default =
       "蛋类区", "豆制品", "调味品", "米面粮油", "餐食烘焙", "营养早餐",
       "鲜奶制品", "休闲食品", "酒水饮料"],
 
+      active: 0,
       items: [{
         img: "../../static/market/item1.png",
         title: "语农 散装土鸡蛋  360枚 40斤",

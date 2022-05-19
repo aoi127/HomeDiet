@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+uni-search-bar {
+  z-index: 1;
+  position: fixed;
+  top: -5px;
+  left: 5px;
+  width: 351px;
+  border-radius: 15px;
+  color: #888888;
+  text-align: center;
+}
+.header {
+  z-index: 0;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 95px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.04);
+}
+.header .tabbar {
+  margin-top: 130rpx;
+  display: flex;
+}
+.header .tabbar view {
+  width: 42px;
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
+  font-family: PingFangSC-regular;
+  margin: auto;
+  color: #101010;
+}
+.header .tabbar .activeTab {
+  color: #0050b3;
+}
+.header .tabbar .activeTab view:nth-child(2) {
+  width: 16px;
+  height: 3px;
+  line-height: 20px;
+  border-radius: 22px;
+  background-color: #0050b3;
+  color: #0050b3;
+  font-size: 14px;
+  text-align: center;
+  font-family: Arial;
+  margin: auto;
+}
+
