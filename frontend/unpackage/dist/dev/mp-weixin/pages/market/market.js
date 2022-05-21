@@ -96,7 +96,7 @@ var components
 try {
   components = {
     uniSearchBar: function() {
-      return Promise.all(/*! import() | uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar.vue */ 51))
+      return Promise.all(/*! import() | uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar.vue */ 52))
     }
   }
 } catch (e) {
@@ -153,7 +153,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
 //
 //
 //
@@ -194,26 +194,38 @@ var _default =
         title: "语农 散装土鸡蛋  360枚 40斤",
         time: "08月13日",
         price: "28.8",
-        sold: "2700" },
+        sold: "2700",
+        type: 0 },
 
       {
         img: "../../static/market/item2.png",
         title: "语农 散装土鸡蛋  360枚 40斤",
         time: "08月13日",
         price: "28.8",
-        sold: "2700" },
+        sold: "2700",
+        type: 0 },
 
       {
         img: "../../static/market/item3.png",
         title: "语农 散装土鸡蛋  360枚 40斤",
         time: "08月13日",
         price: "28.8",
-        sold: "2700" }] };
+        sold: "2700",
+        type: 0 }] };
 
 
 
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    clickLeft: function clickLeft(index) {
+      this.active = index;
+    },
+    clickItem: function clickItem() {
+      uni.navigateTo({
+        url: '../../pages/goods-detail/goods-detail' });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

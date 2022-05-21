@@ -28,22 +28,22 @@
 				navs: [{
 						icon :'/static/icons/antFill-bulb.svg',
 						title: '全部订单',
-						path: '/pages/order/order'
+						path: '/pages/order/order?index=0'
 					},
 					{
 						icon :'/static/icons/fas fa-info-circle.svg',
 						title: '待付款',
-						path: '/pages/order/order'
+						path: '/pages/order/order?index=1'
 					},
 					{
 						icon :'/static/icons/mb-question-filled.svg',
 						title: '待提货',
-						path: '/pages/order/order'
+						path: '/pages/order/order?index=2'
 					},
 					{
 						icon :'/static/icons/antOutline-customer-service Copy.svg',
 						title: '已提货',
-						path: '/pages/order/order'
+						path: '/pages/order/order?index=3'
 					}
 				]
 			}

@@ -4,13 +4,13 @@
 		<view class="main">
 			<scroll-view class="left" scroll-y>
 				<view v-for="(cate, index) in cates" :class="active==index? 'active' : ''"
-				:key="index">
+					:key="index" @click="clickLeft(index)">
 					{{cate}}
 				</view>
 			</scroll-view>
 			<scroll-view class="right" scroll-y>
-				<view class="goodsCard" v-for="(item, index) in items" :key="index">
-					<image mode="aspectFit" :src="item.img"></image>
+				<view class="goodsCard" v-for="(item, index) in items" :key="index" v-if="item.type == active">
+					<image mode="aspectFit" :src="item.img" @click="clickItem()"></image>
 					<view>{{item.title}}</view>
 					<view>提货时间：{{item.time}}</view>
 					<view>
@@ -39,27 +39,37 @@
 						title: "语农 散装土鸡蛋  360枚 40斤",
 						time: "08月13日",
 						price: "28.8",
-						sold: "2700"
+						sold: "2700",
+						type: 0
 					},
 					{
 						img: "../../static/market/item2.png",
 						title: "语农 散装土鸡蛋  360枚 40斤",
 						time: "08月13日",
 						price: "28.8",
-						sold: "2700"
+						sold: "2700",
+						type: 0
 					},
 					{
 						img: "../../static/market/item3.png",
 						title: "语农 散装土鸡蛋  360枚 40斤",
 						time: "08月13日",
 						price: "28.8",
-						sold: "2700"
+						sold: "2700",
+						type: 0
 					}
 				]
 			}
 		},
 		methods: {
-
+			clickLeft: function(index){
+				this.active = index
+			},
+			clickItem: function(){
+				uni.navigateTo({
+					url : '../../pages/goods-detail/goods-detail'
+				})
+			}
 		}
 	}
 </script>
