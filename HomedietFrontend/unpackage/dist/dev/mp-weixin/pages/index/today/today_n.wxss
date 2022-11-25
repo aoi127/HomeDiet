@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.upper {
+  left: 0px;
+  top: 0px;
+  width: 375px;
+  height: 140px;
+  line-height: 20px;
+  background-color: #0050b3;
+  color: #101010;
+  font-size: 14px;
+  text-align: center;
+  font-family: Arial;
+  position: absolute;
+}
+.upper view text {
+  left: 24px;
+  top: 26px;
+  width: 156px;
+  height: 35px;
+  color: white;
+  font-size: 26px;
+  text-align: left;
+  font-family: OPPOSans-bold;
+  position: absolute;
+}
+.upper view text:nth-child(2) {
+  left: 24px;
+  top: 68px;
+  width: 126px;
+  height: 20px;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  font-family: OPPOSans-regular;
+  position: absolute;
+}
+.middle {
+  left: 37.5px;
+  top: 100px;
+  width: 300px;
+  height: 460px;
+  line-height: 20px;
+  border-radius: 30px 30px 30px 30px;
+  text-align: center;
+  border: 1px solid #bbbbbb;
+  position: absolute;
+  background-color: white;
+}
+.middle view image {
+  left: 34px;
+  top: 60px;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+}
+.middle view text {
+  left: 121px;
+  top: 60px;
+  width: 42px;
+  height: 20px;
+  color: #101010;
+  font-size: 14px;
+  text-align: left;
+  font-family: OPPOSans-bold;
+  position: absolute;
+}
+.middle view text:nth-of-type(2) {
+  left: 121px;
+  top: 100px;
+  width: 42px;
+  height: 20px;
+  color: #101010;
+  font-size: 14px;
+  text-align: left;
+  font-family: OPPOSans-bold;
+}
+.middle view text:nth-of-type(3) {
+  left: 199px;
+  top: 100px;
+  width: 104px;
+  height: 20px;
+  color: #101010;
+  font-size: 14px;
+  text-align: left;
+  font-family: OPPOSans-bold;
+}
+.middle view:nth-of-type(2) image {
+  left: 30px;
+  top: 140px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  position: absolute;
+}
+.middle view:nth-of-type(2) text {
+  left: 64px;
+  top: 140px;
+  width: 91px;
+  height: 22px;
+  color: #101010;
+  font-size: 14px;
+  text-align: left;
+  font-family: OPPOSans-bold;
+}
+.middle view:nth-of-type(2) image:nth-of-type(2) {
+  left: 80px;
+  top: 160px;
+  width: 160px;
+  height: 160px;
+  background-color: white;
+  position: absolute;
+}
+.middle view:nth-child(3) image {
+  left: 30px;
+  top: 340px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+}
+.middle view:nth-child(3) text {
+  left: 64px;
+  top: 340px;
+  width: 40px;
+  height: 26px;
+  color: #101010;
+  font-size: 14px;
+  text-align: left;
+  font-family: OPPOSans-bold;
+}
+.middle view:nth-child(3) text:nth-of-type(2) {
+  left: 64px;
+  top: 360px;
+  width: 100px;
+  height: 26px;
+  color: #101010;
+  font-size: 14px;
+  text-align: left;
+  font-family: OPPOSans-bold;
+}
+.middle view:nth-child(3) button {
+  left: 0px;
+  top: 400px;
+  width: 217px;
+  height: 31px;
+  border-radius: 10px 10px 10px 10px;
+  color: #101010;
+  font-size: 14px;
+  line-height: 31px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 1px solid #bbbbbb;
+}
+

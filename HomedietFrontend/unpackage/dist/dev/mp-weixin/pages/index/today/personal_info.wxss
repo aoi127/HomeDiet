@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+input {
+  height: 10px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+button {
+  margin-top: 10px;
+  height: 35px;
+  width: 160px;
+  font-size: 14px;
+  line-height: 35px;
+  background-color: #0050B3;
+  color: #F9F9F9;
+}
+

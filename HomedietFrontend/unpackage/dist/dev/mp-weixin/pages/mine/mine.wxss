@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.bluebg {
+  background: linear-gradient(#c3e6fc, #f5f5f5);
+}
+.top {
+  width: 376px;
+  height: 103px;
+  line-height: 20px;
+  text-align: center;
+}
+.top image:nth-child(1) {
+  position: absolute;
+  left: 23px;
+  top: 21px;
+  width: 55px;
+  height: 55px;
+  border: 2px solid rgba(117, 181, 215, 0);
+  border-radius: 100%;
+}
+.top label:nth-child(2) {
+  position: absolute;
+  left: 90px;
+  top: 30px;
+  width: 97px;
+  height: 22px;
+  color: black;
+  font-size: 16px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  font-weight: bold;
+}
+.top label:nth-child(3) {
+  position: absolute;
+  left: 90px;
+  top: 57px;
+  height: 17px;
+  color: #bbbbbb;
+  font-size: 10px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.top image:nth-child(4) {
+  position: absolute;
+  left: 341px;
+  top: 43px;
+  width: 18px;
+  height: 18px;
+}
+.nav {
+  display: flex;
+  margin: auto;
+  width: 95%;
+  height: 100px;
+  line-height: 20px;
+  border-radius: 9px 12px 12px 12px;
+  background-color: white;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.12);
+  font-family: Arial;
+  margin-bottom: 60rpx;
+}
+.nav .nav_item {
+  width: 25%;
+  text-align: center;
+}
+.nav .nav_item view {
+  width: 48px;
+  height: 48px;
+  line-height: 120rpx;
+  border-radius: 35px;
+  color: #101010;
+  font-size: 13px;
+  text-align: center;
+  font-family: Arial;
+  margin: 10px 20px auto;
+}
+.nav .nav_item view image {
+  width: 24px;
+  height: 24px;
+}
+.nav .nav_item text {
+  width: 56px;
+  height: 20px;
+  color: #101010;
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.hr-solid {
+  border: 0;
+  border-top: 1px solid #d0d0d5;
+  margin: 0 15px;
+}
+.label1 {
+  width: 375px;
+  height: 50px;
+  color: #101010;
+}
+.label1 text {
+  line-height: 100rpx;
+  margin-left: 34rpx;
+  width: 202px;
+  height: 20px;
+  color: #101010;
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.exit {
+  margin-left: 86rpx;
+  margin-top: 60rpx;
+  width: 289px;
+  height: 40px;
+  border-radius: 30px;
+  color: #101010;
+  background-color: #c3e6fc;
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 0px solid #bbbbbb;
+  line-height: 75rpx;
+}
+

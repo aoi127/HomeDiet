@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.upper {
+  width: 375px;
+  height: 40px;
+  line-height: 20px;
+  color: #101010;
+  font-size: 14px;
+  text-align: center;
+  font-family: Arial;
+}
+.upper image {
+  left: 45px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+.upper text {
+  left: 23px;
+  top: 10px;
+  height: 20px;
+  color: #101010;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  position: absolute;
+}
+.upper text:nth-of-type(2) {
+  left: 280px;
+  top: 10px;
+  width: 80px;
+  height: 20px;
+  color: #808080;
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  position: absolute;
+}
+.upper text:nth-of-type(3) {
+  left: 300px;
+  top: 42px;
+  width: 80px;
+  height: 20px;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  position: absolute;
+}
+.blue-bg {
+  width: 750rpx;
+  height: 366rpx;
+  background-color: rgba(186, 231, 255, 0.7);
+}
+.middle {
+  height: 650px;
+}
+.middle .first {
+  background-color: white;
+  height: 203px;
+  width: 328px;
+  border-radius: 15px;
+  border: 1px solid #BBBBBB;
+  box-shadow: #40a9ff 0rpx 4rpx 12rpx 0rpx;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 23px;
+}
+.middle .first text {
+  margin-left: 30px;
+}
+.middle .first image {
+  width: 550rpx;
+  height: 350rpx;
+  margin-left: 20px;
+}
+.middle .second {
+  background-color: white;
+  height: 90px;
+  width: 328px;
+  border-radius: 15px;
+  border: 1px solid #BBBBBB;
+  box-shadow: #40a9ff 0rpx 4rpx 12rpx 0rpx;
+  padding-top: 10px;
+  margin-left: 23px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.middle .second_in {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 5px;
+}
+.middle .third {
+  background-color: white;
+  height: 150px;
+  width: 328px;
+  border-radius: 15px;
+  border: 1px solid #BBBBBB;
+  box-shadow: #40a9ff 0rpx 4rpx 12rpx 0rpx;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 23px;
+  padding-bottom: 0;
+}
+.middle .title {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
