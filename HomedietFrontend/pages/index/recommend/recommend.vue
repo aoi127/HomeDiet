@@ -136,12 +136,17 @@
 				// console.log("getHistory:")
 				Promise.all([res]).then(() => {
 					that.history = res.data.data
+					let today = that.geToday()
 					for (let i = 0; i < that.history.length; i++) {
 						// console.log(that.history)
-						that.dietTime.push({
-							value: i + 1,
-							text: that.history[i].time
-						})
+						if (that.history[i].time != today) {
+							that.dietTime.push({
+								value: i + 1,
+								text: that.history[i].time
+							})
+						} else {
+							that.star = true
+						}
 					}
 				})
 

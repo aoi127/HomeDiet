@@ -2670,9 +2670,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 12:
-/*!*************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/util/api.js ***!
-  \*************************************************************/
+/*!******************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/util/api.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2707,9 +2707,9 @@ var myRequest = function myRequest(options) {
 /***/ }),
 
 /***/ 126:
-/*!******************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-fav/components/uni-fav/i18n/index.js ***!
-  \******************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-fav/components/uni-fav/i18n/index.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2725,9 +2725,9 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1
 /***/ }),
 
 /***/ 127:
-/*!*****************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-fav/components/uni-fav/i18n/en.json ***!
-  \*****************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-fav/components/uni-fav/i18n/en.json ***!
+  \**********************************************************************************************/
 /*! exports provided: uni-fav.collect, uni-fav.collected, default */
 /***/ (function(module) {
 
@@ -2736,9 +2736,9 @@ module.exports = JSON.parse("{\"uni-fav.collect\":\"collect\",\"uni-fav.collecte
 /***/ }),
 
 /***/ 128:
-/*!**********************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-fav/components/uni-fav/i18n/zh-Hans.json ***!
-  \**********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-fav/components/uni-fav/i18n/zh-Hans.json ***!
+  \***************************************************************************************************/
 /*! exports provided: uni-fav.collect, uni-fav.collected, default */
 /***/ (function(module) {
 
@@ -2747,9 +2747,9 @@ module.exports = JSON.parse("{\"uni-fav.collect\":\"收藏\",\"uni-fav.collected
 /***/ }),
 
 /***/ 129:
-/*!**********************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-fav/components/uni-fav/i18n/zh-Hant.json ***!
-  \**********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-fav/components/uni-fav/i18n/zh-Hant.json ***!
+  \***************************************************************************************************/
 /*! exports provided: uni-fav.collect, uni-fav.collected, default */
 /***/ (function(module) {
 
@@ -2771,9 +2771,9 @@ module.exports = JSON.parse("{\"uni-fav.collect\":\"收藏\",\"uni-fav.collected
 /***/ }),
 
 /***/ 138:
-/*!*****************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/pages.json?{"type":"origin-pages-json"} ***!
-  \*****************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/pages.json?{"type":"origin-pages-json"} ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2783,9 +2783,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 139:
-/*!****************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/pages.json?{"type":"stat"} ***!
-  \****************************************************************************/
+/*!*********************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/pages.json?{"type":"stat"} ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2795,9 +2795,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 147:
-/*!********************************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
-  \********************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2813,9 +2813,9 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1
 /***/ }),
 
 /***/ 148:
-/*!*******************************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
-  \*******************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
+  \************************************************************************************************************/
 /*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
 /***/ (function(module) {
 
@@ -2824,9 +2824,9 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 /***/ }),
 
 /***/ 149:
-/*!************************************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
-  \************************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
+  \*****************************************************************************************************************/
 /*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
 /***/ (function(module) {
 
@@ -2835,9 +2835,9 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 /***/ }),
 
 /***/ 150:
-/*!************************************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
-  \************************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
+  \*****************************************************************************************************************/
 /*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
 /***/ (function(module) {
 
@@ -2846,9 +2846,9 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 /***/ }),
 
 /***/ 172:
-/*!******************************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/index.js ***!
-  \******************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/index.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2864,9 +2864,9 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1
 /***/ }),
 
 /***/ 173:
-/*!*****************************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/en.json ***!
-  \*****************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/en.json ***!
+  \**********************************************************************************************************/
 /*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
 /***/ (function(module) {
 
@@ -2875,9 +2875,9 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"shop\",\"uni-good
 /***/ }),
 
 /***/ 174:
-/*!**********************************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hans.json ***!
-  \**********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hans.json ***!
+  \***************************************************************************************************************/
 /*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
 /***/ (function(module) {
 
@@ -2886,9 +2886,9 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店铺\",\"uni-go
 /***/ }),
 
 /***/ 175:
-/*!**********************************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hant.json ***!
-  \**********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hant.json ***!
+  \***************************************************************************************************************/
 /*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
 /***/ (function(module) {
 
@@ -2897,9 +2897,9 @@ module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-go
 /***/ }),
 
 /***/ 183:
-/*!*****************************************************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/uni_modules/uni-icons/components/uni-icons/icons.js ***!
-  \*****************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/uni_modules/uni-icons/components/uni-icons/icons.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5360,9 +5360,9 @@ function resolveLocaleChain(locale) {
 /***/ }),
 
 /***/ 38:
-/*!********************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/data/1777/diets.js ***!
-  \********************************************************************/
+/*!*************************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/data/1777/diets.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11433,9 +11433,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 5:
-/*!************************************************************!*\
-  !*** D:/Codes/HomeDiet_Multi/HomedietFrontend4/pages.json ***!
-  \************************************************************/
+/*!*****************************************************!*\
+  !*** D:/Codes/HomeDiet/HomedietFrontend/pages.json ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
