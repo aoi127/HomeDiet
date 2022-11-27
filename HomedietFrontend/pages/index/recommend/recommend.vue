@@ -17,7 +17,7 @@
 							<image :src="item.food.pic"></image>
 						</view>
 						<view class="detail">
-							<view>{{item.food.name}} {{item.gram}}g</view>
+							<view>{{item.food.name}} {{item.gram < 0 ? -item.gram : item.gram}}g</view>
 							<text>蛋白质{{item.food.protein}}g,碳水化合物{{item.food.carb}}g,脂肪{{item.food.fat}}g</text>
 						</view>
 						<button @click="buttonClick(item.food.itemid)">加入购物车</button>
@@ -30,7 +30,7 @@
 							<image :src="item.food.pic"></image>
 						</view>
 						<view class="detail">
-							<view>{{item.food.name}} {{item.gram}}g</view>
+							<view>{{item.food.name}} {{item.gram < 0 ? -item.gram : item.gram}}g</view>
 							<text>蛋白质{{item.food.protein}}g,碳水化合物{{item.food.carb}}g,脂肪{{item.food.fat}}g</text>
 						</view>
 						<button @click="buttonClick(item.food.itemid)">加入购物车</button>
@@ -43,7 +43,7 @@
 							<image :src="item.food.pic"></image>
 						</view>
 						<view class="detail">
-							<view>{{item.food.name}} {{item.gram}}g</view>
+							<view>{{item.food.name}} {{item.gram < 0 ? -item.gram : item.gram}}g</view>
 							<text>蛋白质{{item.food.protein}}g,碳水化合物{{item.food.carb}}g,脂肪{{item.food.fat}}g</text>
 						</view>
 						<button @click="buttonClick(item.food.itemid)">加入购物车</button>
