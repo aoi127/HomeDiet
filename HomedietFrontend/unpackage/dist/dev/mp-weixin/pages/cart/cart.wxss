@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* 水平间距 */
 /* 水平间距 */
+.blank {
+  height: 100px;
+}
 .fixbar {
   display: flex;
   z-index: 1;

@@ -26,6 +26,7 @@
 				</view>
 			</view>
 		</scroll-view>
+		<view class='blank'></view>
 	</view>
 </template>
 
@@ -181,6 +182,9 @@
 </script>
 
 <style lang=scss>
+	.blank {
+		height: 100px;
+	}
 	.fixbar {
 		display: flex;
 		z-index: 1;
